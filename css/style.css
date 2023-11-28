@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'WindowsSerif', sans-serif;
     background-color: #008080; /* Windows 98 blue color */
     color: #ffffff;
     display: flex;
@@ -19,10 +19,6 @@ body {
   hr {
     border: 1px solid white;
     opacity: 100%
-  }
-
-  .win98-text {
-    font-family: 'WindowsSerif' sans-serif !important;
   }
 
   .panel {
@@ -108,6 +104,7 @@ body {
 
   .social-icon {
     display: inline-block;
+    width: 70%;
     padding: 5px; /* Adjust the padding as needed */
     margin: 3px; /* Adjust the margin as needed */
     border-radius: 20px; /* Half of the height for pill shape */
@@ -115,4 +112,9 @@ body {
     color: #fff; /* Social link text color */
     text-decoration: none;
     font-size: 14px; /* Adjust the font size as needed */
+  }
+
+  .social-icon img {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
   }
