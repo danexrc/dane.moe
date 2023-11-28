@@ -1,0 +1,28 @@
+{
+    "projects":
+    {
+        "development": 
+        [
+            {
+                "title": "dane.lol",
+                "description": "Test subject",
+                "sourceLink": "https://github.com/0xdane/dane.lol",
+                "coverImage": ""
+            },
+            {
+                "title": "GifKraken",
+                "description": "Another Test Subject",
+                "sourceLink": "",
+                "coverImage": ""
+            }
+        ],
+        "graphics": 
+        [
+
+        ],
+        "music":
+        [
+
+        ]
+    }
+}
