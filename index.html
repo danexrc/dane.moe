@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <style>
     @-webkit-keyframes bg-move {
 0% {
@@ -40,8 +40,12 @@ animation:bg-move 50s linear infinite forwards;
 </style>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
 
     <title>Dane</title>
@@ -53,16 +57,50 @@ animation:bg-move 50s linear infinite forwards;
 
     <div class="panel">
         <div class="title-bar win98-text">
-            dane.moe
-            <button class="exit-button" onclick="closeWindow()">X</button>
+            Home
+            <button class="exit-button">X</button>
           </div>
           <div class="content">
             <img class="logo centered-image" src="/assets/img/logos/1.png" alt="dane.moe" />
-          </div>
-      </div>
+            <div class="container">
+                    <a href="#" class="nav-btn win98-btn">Home</a>
+                    <a href="#" class="nav-btn win98-btn">Projects</a>
+                    <a href="#" class="nav-btn win98-btn">Blog</a>
+                    <a href="#" class="nav-btn win98-btn">Contact</a>
+            </div>
+            <hr>
+            
+            <div class="bio">
+                <h2>Hi, I'm Dane 👋</h2>
+                <br>
+                <p>I am a fullstack software developer from the UK. I mostly work in C# & JavaScript. This is my website where I showcase my personal projects & other things that I have worked on.</p>
+                <p>I work professionally as a software developer, where I have helped to deliver large, complex development & infrastructure solutions to some of the worlds largest organizations.</p>
+                <p>Outside of development, I also enjoy graphic design & music production (also may be featured on the site). I also enjoy video games, DJ & VR.</p>
+            </div>
+
+            <hr>
+
+            <div class="social-links">
+                <h2>Links</h2>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i> @dane7k</i></a>
+                    </div>
+                <div class="col-md-4">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i> @dane7k</i></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i> @dane7k</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>
