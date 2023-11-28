@@ -108,7 +108,7 @@ body {
     padding: 5px; /* Adjust the padding as needed */
     margin: 3px; /* Adjust the margin as needed */
     border-radius: 20px; /* Half of the height for pill shape */
-    background-color: #008bb0; /* Social link background color */
+    background: linear-gradient(to bottom, #254477, #357ae8);
     color: #fff; /* Social link text color */
     text-decoration: none;
     font-size: 14px; /* Adjust the font size as needed */
