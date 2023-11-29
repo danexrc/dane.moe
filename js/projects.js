@@ -3,14 +3,14 @@ let graphics = [];
 let other = [];
 
 function getJSON() {
-    fetch('https://raw.githubusercontent.com/0xdane/dane.moe/main/assets/json/projects.json?token=GHSAT0AAAAAACJJT3K5OMSALRC6IVH3SPRGZLGNYDQ').then (data => data.json()).then(data => {
+    fetch('https://raw.githubusercontent.com/0xdane/dane.moe/main/assets/json/projects.json?token=GHSAT0AAAAAACJJT3K5DHJJAJDO6VOLQVOYZLHF4MQ').then (data => data.json()).then(data => {
           development.push(data.projects.development);
           graphics.push(data.projects.graphics);
           other.push(data.projects.other);
 
          console.log(development);
          console.log(graphics);
-         console.log(music);
+         console.log(other);
 
         populateDevelopment();
         populateGraphics();
@@ -42,19 +42,36 @@ function populateDevelopment() {
     } else {
         for (const element of development[0]) {
             let language = element.language;
-            let langColor = getLanguageColor(language)
+            let langColor = getLanguageColor(language);
 
-            $("#dev-row").append(
-                "<div class=\"col-sm-6\">" +
-                "<div class=\"card d-flex flex-column\">" +
-                "<div class=\"card-body\">" +
-                "<a href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
-                "<p class=\"card-text\">" + element.description + "</p>" +
-                "<p class=\"card-language\"><span style=" + langColor + "><i class=\"fa-solid fa-circle\"></i></span>" + element.language + "</p>" +
-                "</div>" +
-                "</div>" +
-                "</div>"
-            )
+            if (element.coverImage != "") {
+                $("#dev-row").append(
+                    "<div class=\"col-sm-6\">" +
+                    "<div class=\"card d-flex flex-column\">" +
+                    "<div class=\"card-body\">" +
+                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 197px;\" alt=\"Project image\">" +
+                    "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
+                    "<p class=\"card-text\">" + element.description + "</p>" +
+                    "<div class=\"proj-details\">" +
+                    "<p class=\"card-language\"><span style=color:" + langColor + "><i class=\"fa-solid fa-circle\"></i></span> " + element.language + "</p>" +
+                    "<a class=\"repo-name\" href=" + element.sourceLink + "><p><i class=\"fa-solid fa-code-branch\"></i> " + element.repoName + "</p>"
+                    "</div>" +
+                    "</div>" +
+                    "</div>"
+                )
+            } else {
+                $("#dev-row").append(
+                    "<div class=\"col-sm-6\">" +
+                    "<div class=\"card d-flex flex-column\">" +
+                    "<div class=\"card-body\">" +
+                    "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
+                    "<p class=\"card-text\">" + element.description + "</p>" +
+                    "<p class=\"card-language\"><span style=color:" + langColor + "><i class=\"fa-solid fa-circle\"></i></span> " + element.language + "</p>" +
+                    "</div>" +
+                    "</div>" +
+                    "</div>"
+                )
+            }
         }
     }
 }

@@ -8,14 +8,16 @@
                 "description": "Test subject",
                 "sourceLink": "https://github.com/0xdane/dane.lol",
                 "coverImage": "",
-                "language": "C#"
+                "language": "C#",
+                "repoName": "0xdane/dane.lol"
             },
             {
                 "title": "GifKraken",
                 "description": "Another Test Subject",
                 "sourceLink": "",
                 "coverImage": "",
-                "language": "JavaScript"
+                "language": "JavaScript",
+                "repoName": "0xdane/GifKraken"
             }
         ],
         "graphics": 

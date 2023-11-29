@@ -135,7 +135,26 @@ body {
     height: 20px; /* Adjust the height as needed */
   }
 
-  .card-language {
-    font-size: 11px;
+  .card {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    margin-top: 10px;
+  }
+
+  .card-body {
     text-align: left;
+  }
+
+  .title-link{
+    text-decoration: none !important;
+    color: #ffffff;
+  }
+
+  .title-link:hover {
+    color: #357ae8;
+  }
+
+  .card-language {
+    font-size: 13px;
   }
