@@ -18,6 +18,14 @@
                 "coverImage": "",
                 "language": "JavaScript",
                 "repoName": "0xdane/GifKraken"
+            },
+            {
+                "title": "GifKraken2",
+                "description": "Another Test Subject",
+                "sourceLink": "",
+                "coverImage": "",
+                "language": "JavaScript",
+                "repoName": "0xdane/GifKraken"
             }
         ],
         "graphics": 
