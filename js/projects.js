@@ -3,26 +3,26 @@ let graphics = [];
 let other = [];
 
 function getJSON() {
-    fetch('https://raw.githubusercontent.com/0xdane/dane.moe/main/assets/json/projects.json?token=GHSAT0AAAAAACJJT3K4OEN4XUJ7FV7ULR3KZLHY7VA').then (data => data.json()).then(data => {
-          development.push(data.projects.development);
-          graphics.push(data.projects.graphics);
-          other.push(data.projects.other);
+    fetch('https://raw.githubusercontent.com/0xdane/dane.moe/main/assets/json/projects.json?token=GHSAT0AAAAAACJJT3K4OEN4XUJ7FV7ULR3KZLHY7VA').then(data => data.json()).then(data => {
+        development.push(data.projects.development);
+        graphics.push(data.projects.graphics);
+        other.push(data.projects.other);
 
-         console.log(development);
-         console.log(graphics);
-         console.log(other);
+        console.log(development);
+        console.log(graphics);
+        console.log(other);
 
         populateDevelopment();
         populateGraphics();
         populateOther();
     })
-    .catch(error => {
-        console.log(error);
-    })
+        .catch(error => {
+            console.log(error);
+        })
 }
 
 function getLanguageColor(language) {
-    switch(language) {
+    switch (language) {
         case "C#":
             return "#178701";
         case "JavaScript":
@@ -37,7 +37,7 @@ function getLanguageColor(language) {
 }
 
 function getGraphicsCategoryColor(category) {
-    switch(category) {
+    switch (category) {
         case "Logo":
             return "#ff7366";
         case "Banner":
@@ -54,7 +54,7 @@ function getGraphicsCategoryColor(category) {
 }
 
 function getOtherCategoryColor(category) {
-    switch(category) {
+    switch (category) {
         case "Music":
             return "#7366ff";
         case "Video":
@@ -77,7 +77,7 @@ function populateDevelopment() {
                     "<div class=\"col-sm-6\">" +
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
-                    "<img class=\"card-img-top responsive\" src=" + element.coverImage +" style=\"height: 197px;\" alt=\"Project image\">" +
+                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 197px;\" alt=\"Project image\">" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
@@ -106,6 +106,7 @@ function populateDevelopment() {
             }
         }
     }
+}
 
 function populateGraphics() {
     if (graphics[0].length == 0) {
@@ -121,7 +122,7 @@ function populateGraphics() {
                     "<div class=\"col-sm-6\">" +
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
-                    "<img class=\"card-img-top responsive\" src=" + element.coverImage +" style=\"height: 197px;\" alt=\"Project image\">" +
+                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 197px;\" alt=\"Project image\">" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
@@ -164,7 +165,7 @@ function populateOther() {
                     "<div class=\"col-sm-6\">" +
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
-                    "<img class=\"card-img-top responsive\" src=" + element.coverImage +" style=\"height: 197px;\" alt=\"Project image\">" +
+                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 197px;\" alt=\"Project image\">" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
@@ -190,4 +191,4 @@ function populateOther() {
             }
         }
     }
-} 
+}
