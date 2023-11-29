@@ -54,7 +54,8 @@ function populateDevelopment() {
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
                     "<p class=\"card-language\"><span style=color:" + langColor + "><i class=\"fa-solid fa-circle\"></i></span> " + element.language + "</p>" +
-                    "<a class=\"repo-name\" href=" + element.sourceLink + "><p><i class=\"fa-solid fa-code-branch\"></i> " + element.repoName + "</p>"
+                    "<a class=\"repo-name\" href=" + element.sourceLink + "><p><i class=\"fa-solid fa-code-branch\"></i> " + element.repoName + "</p>" +
+                    "</div>" +
                     "</div>" +
                     "</div>" +
                     "</div>"
