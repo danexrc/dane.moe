@@ -7,7 +7,7 @@
                 "title": "dane.lol",
                 "description": "Test subject",
                 "sourceLink": "https://github.com/0xdane/dane.lol",
-                "coverImage": "",
+                "coverImage": "/assets/img/logos/1.png",
                 "language": "C#",
                 "repoName": "0xdane/dane.lol"
             },
