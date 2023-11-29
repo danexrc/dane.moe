@@ -3,7 +3,7 @@ let graphics = [];
 let other = [];
 
 function getJSON() {
-    fetch('https://raw.githubusercontent.com/0xdane/dane.moe/main/assets/json/projects.json?token=GHSAT0AAAAAACJJT3K5DHJJAJDO6VOLQVOYZLHF4MQ').then (data => data.json()).then(data => {
+    fetch('https://raw.githubusercontent.com/0xdane/dane.moe/main/assets/json/projects.json?token=GHSAT0AAAAAACJJT3K42RDBJMXFTUZMS5DAZLHHXCA').then (data => data.json()).then(data => {
           development.push(data.projects.development);
           graphics.push(data.projects.graphics);
           other.push(data.projects.other);
@@ -67,7 +67,10 @@ function populateDevelopment() {
                     "<div class=\"card-body\">" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
+                    "<div class=\"proj-details\">" +
                     "<p class=\"card-language\"><span style=color:" + langColor + "><i class=\"fa-solid fa-circle\"></i></span> " + element.language + "</p>" +
+                    "<p><i class=\"fa-solid fa-code-branch\"></i><a class=\"repo-name\" href=" + element.sourceLink + "> " + element.repoName + "</p>" +
+                    "</div>" +
                     "</div>" +
                     "</div>" +
                     "</div>"
