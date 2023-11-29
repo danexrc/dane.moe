@@ -30,11 +30,23 @@
         ],
         "graphics": 
         [
-
+            {
+                "title": "Test graphics",
+                "description": "Test gfx project",
+                "sourceLink": "",
+                "coverImage": "",
+                "category": "Logo"
+            }
         ],
         "other":
         [
-
+            {
+                "title": "Test misc",
+                "description": "Test misc project",
+                "sourceLink": "",
+                "coverImage": "",
+                "category": "Misc"
+            }
         ]
     }
 }
