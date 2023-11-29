@@ -7,20 +7,22 @@
                 "title": "dane.lol",
                 "description": "Test subject",
                 "sourceLink": "https://github.com/0xdane/dane.lol",
-                "coverImage": ""
+                "coverImage": "",
+                "language": ""
             },
             {
                 "title": "GifKraken",
                 "description": "Another Test Subject",
                 "sourceLink": "",
-                "coverImage": ""
+                "coverImage": "",
+                "language": ""
             }
         ],
         "graphics": 
         [
 
         ],
-        "music":
+        "other":
         [
 
         ]
