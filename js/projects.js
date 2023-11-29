@@ -3,7 +3,7 @@ let graphics = [];
 let other = [];
 
 function getJSON() {
-    fetch('https://raw.githubusercontent.com/0xdane/dane.moe/main/assets/json/projects.json?token=GHSAT0AAAAAACJJT3K5V3M3I6GCQREM7NOQZLHIOXQ').then (data => data.json()).then(data => {
+    fetch('https://raw.githubusercontent.com/0xdane/dane.moe/main/assets/json/projects.json?token=GHSAT0AAAAAACJJT3K4OEN4XUJ7FV7ULR3KZLHY7VA').then (data => data.json()).then(data => {
           development.push(data.projects.development);
           graphics.push(data.projects.graphics);
           other.push(data.projects.other);
@@ -88,7 +88,7 @@ function populateDevelopment() {
                     "</div>" +
                     "</div>"
                 )
-            }
+            } else {
                 $("#dev-row").append(
                     "<div class=\"col-sm-6\">" +
                     "<div class=\"card d-flex flex-column\">" +
