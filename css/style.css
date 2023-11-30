@@ -246,6 +246,10 @@ body {
     visibility: hidden;
   }
 
+  iframe.tmblr-iframe.tmblr-iframe--unified-controls.tmblr-iframe--loaded.iframe-controls--phone-mobile {
+    visibility: hidden;
+  }
+
   .contact-social-links li {
     list-style: none;
   }
