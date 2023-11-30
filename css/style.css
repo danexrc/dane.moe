@@ -164,3 +164,32 @@ body {
   .card-language {
     padding-right: 10px;
   }
+
+  div.follow-teaser {
+    visibility: hidden;
+  }
+
+  ol.tumblr_posts{
+    list-style:none;
+
+}
+
+  li.tumblr_post.tumblr_text_post{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    border-radius: 1vh;
+  }
+
+  div.tumblr_title {
+    font-size: 32px;
+  }
+
+  iframe.tmblr-iframe.tmblr-iframe--unified-controls.tmblr-iframe--loaded.iframe-controls--desktop {
+    visibility: hidden;
+  }
+
+  iframe.tmblr-iframe.tmblr-iframe--follow-teaser.open.center {
+    visibility: hidden;
+  }
