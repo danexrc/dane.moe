@@ -34,6 +34,12 @@ body {
     overflow-x: hidden;
   }
 
+  .nav-section {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
   .container {
     text-align: center;
     padding-top: 10px;
