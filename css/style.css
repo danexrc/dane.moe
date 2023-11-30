@@ -80,38 +80,36 @@ body {
     margin: 3px 0;
 }
 
-/* Dropdown menu styles */
 .dropdown-menu {
-    display: none;
+  display: none;
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 2s ease; /* Add transition for opacity */
 }
 
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-
-    .hamburger-menu {
-        display: flex;
-        text-align: center;
-    }
-
-    .dropdown-menu {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #000000;
-        border: 1px solid #ffffff;
-    }
-
-    .dropdown-menu a {
-        padding: 12px;
-        text-align: center;
-    }
+  .nav-links {
+    display: none;
 }
+
+.hamburger-menu {
+    display: flex;
+    text-align: center;
+}
+
+  .dropdown-menu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #000000;
+      border: 1px solid #ddd;
+      opacity: 1; /* Set opacity to 1 when menu is visible */
+  }
+}
+
 
   .win98-btn {
     display: inline-block;
