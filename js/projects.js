@@ -78,6 +78,7 @@ function populateDevelopment() {
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
                     "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 220px;\" alt=\"Project image\">" +
+                    "<br>" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
@@ -123,6 +124,7 @@ function populateGraphics() {
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
                     "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 220px;\" alt=\"Project image\">" +
+                    "<br>" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
@@ -166,6 +168,7 @@ function populateOther() {
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
                     "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 220px;\" alt=\"Project image\">" +
+                    "<br>" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +

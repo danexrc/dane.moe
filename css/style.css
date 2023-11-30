@@ -38,6 +38,11 @@ body {
     padding-top: 15px;
     padding-right: 15px;
     padding-left: 15px;
+    width: 100%;
+    position: sticky;
+    top: 48px; /* Adjust this value to match the height of your title bar */
+    background-color: #000000; /* Adjust background color as needed */
+    z-index: 99; /* Ensure the nav section stays above other content */
   }
 
   .container {
@@ -154,14 +159,6 @@ body {
     text-align: center;
   }
 
-  .nav-section {
-    width: 100%;
-    position: sticky;
-    top: 48px; /* Adjust this value to match the height of your title bar */
-    background-color: #000000; /* Adjust background color as needed */
-    z-index: 99; /* Ensure the nav section stays above other content */
-  }
-
   .centered-image {
     display: block;
     margin: 0 auto;
@@ -214,6 +211,10 @@ body {
 
   .card-language {
     padding-right: 10px;
+  }
+
+  .card-img-top {
+    padding-bottom: 15px;
   }
 
   div.follow-teaser {
