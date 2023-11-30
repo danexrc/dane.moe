@@ -4,47 +4,25 @@
         "development": 
         [
             {
-                "title": "dane.lol",
-                "description": "Test subject",
-                "sourceLink": "https://github.com/0xdane/dane.lol",
-                "coverImage": "/assets/img/logos/1.png",
-                "language": "C#",
-                "repoName": "0xdane/dane.lol"
-            },
-            {
-                "title": "GifKraken",
-                "description": "Another Test Subject",
-                "sourceLink": "",
+                "title": "dane.moe",
+                "description": "Source code for this website!",
+                "sourceLink": "https://github.com/0xdane/dane.moe/",
                 "coverImage": "",
-                "language": "JavaScript",
-                "repoName": "0xdane/GifKraken"
-            },
-            {
-                "title": "GifKraken2",
-                "description": "Another Test Subject",
-                "sourceLink": "",
-                "coverImage": "",
-                "language": "JavaScript",
-                "repoName": "0xdane/GifKraken"
+                "language": "HTML",
+                "repoName": "0xdane/dane.moe"
             }
         ],
         "graphics": 
         [
-            {
-                "title": "Test graphics",
-                "description": "Test gfx project",
-                "sourceLink": "",
-                "coverImage": "",
-                "category": "Logo"
-            }
+
         ],
         "other":
         [
             {
-                "title": "Test misc",
-                "description": "Test misc project",
-                "sourceLink": "",
-                "coverImage": "",
+                "title": "Streamdeck Profiles",
+                "description": "A collection of Streamdeck profiles created by me for various applications!",
+                "sourceLink": "https://github.com/0xdane/Streamdeck-Profiles",
+                "coverImage": "https://preview.redd.it/df1p4cadhtua1.jpg",
                 "category": "Misc"
             }
         ]
