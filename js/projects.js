@@ -77,7 +77,7 @@ function populateDevelopment() {
                     "<div class=\"col-sm-6\">" +
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
-                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 197px;\" alt=\"Project image\">" +
+                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 220px;\" alt=\"Project image\">" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
@@ -122,7 +122,7 @@ function populateGraphics() {
                     "<div class=\"col-sm-6\">" +
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
-                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 197px;\" alt=\"Project image\">" +
+                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 220px;\" alt=\"Project image\">" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
@@ -165,7 +165,7 @@ function populateOther() {
                     "<div class=\"col-sm-6\">" +
                     "<div class=\"card d-flex flex-column\">" +
                     "<div class=\"card-body\">" +
-                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 197px;\" alt=\"Project image\">" +
+                    "<img class=\"card-img-top responsive\" src=" + element.coverImage + " style=\"height: 220px;\" alt=\"Project image\">" +
                     "<a class=\"title-link\" href=" + element.sourceLink + "><h5 class=\"card-title\">" + element.title + "</h5></a>" +
                     "<p class=\"card-text\">" + element.description + "</p>" +
                     "<div class=\"proj-details\">" +
