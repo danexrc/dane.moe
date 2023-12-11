@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    @-webkit-keyframes bg-move {
+        0% {
+            background-position: 50%
+        }
+
+        to {
+            background-position: -1000px
+        }
+    }
+
+    @keyframes bg-move {
+        0% {
+            background-position: 50%
+        }
+
+        to {
+            background-position: -1000px
+        }
+    }
+
+    body {
+        background: url(/assets/img/backgrounds/1.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: repeat, no-repeat;
+        background-color: #ededed;
+        background-position: 0%;
+        height: 100%;
+        width: 100%;
+        position: static;
+        left: 0;
+        top: 0;
+        z-index: 9;
+        -webkit-animation: bg-move 50s linear infinite forwards;
+        animation: bg-move 50s linear infinite forwards;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="dane.moe: Official portfolio for Dane Buchanan">
+    <meta name="keywords" content="Dane, Dane, Buchanan, 0xdane, Portfolio, Development, Programming, Graphics, ">
+    <meta name="author" content="Dane Buchanan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#936f00">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+        integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>404 Not Found : Dane (dane.moe)</title>
+
+
+</head>
+
+<body>
+
+    <div class="panel">
+        <div class="title-bar win98-text">
+            Contact
+            <button class="exit-button">X</button>
+        </div>
+        <div class="nav-section">
+            <img class="logo centered-image" src="/assets/img/logos/1.png" alt="dane.moe" />
+            <div class="container">
+                <div class="nav-links">
+                    <a href="/" class="nav-btn win98-btn">Home</a>
+                    <a href="/projects/" class="nav-btn win98-btn">Projects</a>
+                    <a href="/blog/" class="nav-btn win98-btn">Blog</a>
+                    <a href="/contact/" class="nav-btn win98-btn">Contact</a>
+                </div>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu">
+                    <a href="/" class="nav-btn win98-btn">Home</a>
+                    <a href="/projects/" class="nav-btn win98-btn">Projects</a>
+                    <a href="/blog/" class="nav-btn win98-btn">Blog</a>
+                    <a href="/contact/" class="nav-btn win98-btn">Contact</a>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="content">
+            <h2>You have entered the void</h2>
+            <p>Unfortunately the page that you are looking for is not here... Maybe it was once but its not anymore sadly.</p>
+            <br>
+            <img src="https://media.tenor.com/mWOA0c_KSgIAAAAj/chibi-anime.gif" alt="Rage">
+            <br>
+            <div class="footer">
+                <p>© 2023 - Dane Buchanan</p>
+                <a href="https://github.com/danecfw/dane.moe"> <i class="fa-solid fa-code"></i> Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+        integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
