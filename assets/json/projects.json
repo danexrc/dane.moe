@@ -37,11 +37,19 @@
         "graphics": 
         [ 
             {
-                "title": "2D Logo Designs",
-                "description": "A collection of Streamdeck profiles created by me for various applications!",
-                "sourceLink": "https://github.com/0xdane/Streamdeck-Profiles",
-                "coverImage": "https://i.imgur.com/ZyyyD5I.jpg",
-                "category": "Misc"
+                "title": "2D Logo Designs - 2017 (OLD)",
+                "description": "These are a collection of logos I designed between 2015-2017.",
+                "sourceLink": "https://www.behance.net/gallery/62520917/2D-LOGO-DESIGNS",
+                "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/original/e46e7462520917.61a16d37c464d.png",
+                "category": "Logo"
+
+            },
+            {
+                "title": "2D Twitter Banner Designs - 2017 (OLD)",
+                "description": "These are a collection of banners I made for my Twitter friend/mutuals bewtween 2016-2017",
+                "sourceLink": "https://www.behance.net/gallery/51596931/2D-BANNER-DESIGNS-(TWUT)-OLD-(2017)",
+                "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/original/56418651596931.Y3JvcCw4MTAsNjM0LDAsMA.png",
+                "category": "Logo"
 
             }
 
