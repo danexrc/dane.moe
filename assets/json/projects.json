@@ -1,3 +1,25 @@
+// CATEGORIES/TAGS:
+
+// Coding:
+// "C#"
+// "JavaScript"
+// "TypeScript"
+// "HTML"
+// "CSS"
+
+// Graphics:
+// "Logo"
+// "Banner"
+// "Typography"
+// "Branding"
+// "3D Model"
+// "Sketch"
+
+// Other:
+// "Music"
+// "Video"
+// "Misc"
+
 {
     "projects":
     {
@@ -13,7 +35,15 @@
             }
         ],
         "graphics": 
-        [
+        [ 
+            {
+                "title": "2D Logo Designs",
+                "description": "A collection of Streamdeck profiles created by me for various applications!",
+                "sourceLink": "https://github.com/0xdane/Streamdeck-Profiles",
+                "coverImage": "https://i.imgur.com/ZyyyD5I.jpg",
+                "category": "Misc"
+
+            }
 
         ],
         "other":
