@@ -3,7 +3,7 @@ let graphics = [];
 let other = [];
 
 function getJSON() {
-    fetch('https://raw.githubusercontent.com/danecfw/dane.moe/main/assets/json/projects.json').then(data => data.json()).then(data => {
+    fetch('https://raw.githubusercontent.com/danexrc/dane.moe/main/assets/json/projects.json').then(data => data.json()).then(data => {
         development.push(data.projects.development);
         graphics.push(data.projects.graphics);
         other.push(data.projects.other);
