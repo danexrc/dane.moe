@@ -1,3 +1,25 @@
+// CATEGORIES/TAGS:
+
+// Coding:
+// "C#"
+// "JavaScript"
+// "TypeScript"
+// "HTML"
+// "CSS"
+
+// Graphics:
+// "Logo"
+// "Banner"
+// "Typography"
+// "Branding"
+// "3D Model"
+// "Sketch"
+
+// Other:
+// "Music"
+// "Video"
+// "Misc"
+
 let development = [];
 let graphics = [];
 let other = [];
